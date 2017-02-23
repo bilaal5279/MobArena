@@ -14,7 +14,7 @@ public class Messenger
 {
     private static final Logger log = Logger.getLogger("Minecraft");
     
-    private static final String prefix = "[MobArena] ";
+    private static final String prefix = "[EliteApocolypse] ";
     
     private Messenger() {}
 
@@ -25,7 +25,7 @@ public class Messenger
         }
 
         // Otherwise, send the message with the [MobArena] tag.
-        p.sendMessage(ChatColor.GREEN + "[MobArena] " + ChatColor.RESET + msg);
+        p.sendMessage(ChatColor.BLUE + "[EliteApocolypse] " + ChatColor.RESET + msg);
         return true;
     }
 
